@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Task_9_3_2
+namespace Task_9_3_3
 {
     internal class Program
     {
@@ -8,9 +8,8 @@ namespace Task_9_3_2
         static void Main(string[] args)
         {
             Func func = Function;
-            Console.WriteLine("5 - 6 = {0}", func.Invoke(5, 6));
             Console.WriteLine("5 - 6 = {0}", func(5, 6));
-
+            Console.WriteLine("5 - 6 = {0}", func.Invoke(5, 6));
         }
         static int Function(int a, int b)
         {
