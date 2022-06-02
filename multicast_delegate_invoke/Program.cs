@@ -12,6 +12,10 @@ namespace multicast_delegate_invoke
             showDelegate += ShowMessage3;
             showDelegate += ShowMessage4;
 
+            showDelegate -= ShowMessage4;
+            showDelegate -= ShowMessage3;
+            showDelegate -= ShowMessage2;
+
             showDelegate.Invoke();
 
             Console.ReadKey();

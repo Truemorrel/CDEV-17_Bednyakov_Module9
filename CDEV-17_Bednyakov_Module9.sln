@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multicast_delegate_invoke",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_3_4", "Task_9_3_4\Task_9_3_4.csproj", "{58327A5E-3296-4849-BBCB-5AFC6F951CCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_9_3_5", "Task_9_3_5\Task_9_3_5.csproj", "{F9F0832D-62A5-4104-B86A-D9C7C0453C4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{58327A5E-3296-4849-BBCB-5AFC6F951CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58327A5E-3296-4849-BBCB-5AFC6F951CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58327A5E-3296-4849-BBCB-5AFC6F951CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F0832D-62A5-4104-B86A-D9C7C0453C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F0832D-62A5-4104-B86A-D9C7C0453C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F0832D-62A5-4104-B86A-D9C7C0453C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F0832D-62A5-4104-B86A-D9C7C0453C4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
