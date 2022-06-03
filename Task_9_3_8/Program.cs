@@ -6,8 +6,8 @@ namespace Generic_Delegates
     {
         static void Main(string[] args)
         {
-            Action showMessageDelegate = ShowMessage;
-            showMessageDelegate.Invoke();
+            Action <string, string> showMessageDelegate = ShowMessage;
+            showMessageDelegate.Invoke("Hello World", "");
 
             Func <int, int, int, int> sumDelegate = Sum;
             int result = sumDelegate.Invoke(1, 30, 120);
@@ -17,9 +17,9 @@ namespace Generic_Delegates
             bool status = checkLengthDelegate.Invoke("skill_factory");
             Console.WriteLine(status);
         }
-        static void ShowMessage()
+        static void ShowMessage(string msg, string msg1)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine(msg + msg1);
         }
 
         static int Sum(int a, int b, int c)
